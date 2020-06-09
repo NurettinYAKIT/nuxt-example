@@ -15,7 +15,5 @@
 </template>
 
 <script>
-export default {
-  layout: 'inspire-layout'
-}
+export default {}
 </script>
