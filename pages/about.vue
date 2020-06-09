@@ -1,12 +1,13 @@
 <template>
   <div>
-    <h1>{{title}}</h1>
+    <h1>{{ title }}</h1>
     <n-link to="/">Home</n-link>
   </div>
 </template>
 
 <script>
 export default {
+  middleware: 'test',
   asyncData() {
     return {
       title: 'About'
@@ -28,5 +29,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
