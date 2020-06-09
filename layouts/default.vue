@@ -25,7 +25,7 @@
           <n-link to="/about">ABOUT</n-link>
         </v-btn>
         <v-btn text>
-          <n-link to="/blogs">BLOG</n-link>
+          <n-link to="/blog">BLOG</n-link>
         </v-btn>
       </v-toolbar>
     </v-card>
@@ -36,8 +36,6 @@
 
 <script>
 export default {
-  el: '#app',
-
   data() {
     return {
       title: 'Learning Nuxt',
